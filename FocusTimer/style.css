@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --bg-color: #E5E5E5;
+  --tt-color: #323238;
+  --tt-button-primary: white;
+  --tt-button-secundary: #323238;
+  --bg-primary-button: #02799D;
+  --bg-secundary-button: #E1E1E6;
+}
+body{
+  padding: 19.6rem 22.6rem 18.8rem 23.3rem;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.hide {
+  display: none;
+}
+main{
+  display: grid;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin-right: 19.2rem;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+.controls {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  background-color: transparent;
+}
+.timer {
+  font-size: 12.6rem;
+  font-family: 'Roboto', sans-serif;
+  line-height: 14.8rem;
+  text-align: center;
+  color: var(--tt-color);
+  margin-bottom: 4.8rem;
+  display: flex;
+}
+
+footer .states {
+  display: grid;
+  gap: 3.2rem;
+  border-radius: 2.4rem;
+}
+
+footer .screen1 {
+  display: flex;
+  gap: 3.2rem;
+}
+
+footer .screen2 {
+  display: flex;
+  gap: 3.2rem;
+}
